@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    font-family: Poppins;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.logo-nav-div{
+    width: 100%;
+    min-height: 10px;
+    background-color: rgb(37, 37, 37);
+    line-height: 10px;
+    padding: 1% 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.logo-div {
+    width: 53%;
+    min-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 3%;
+}
+
+.nav-div {
+    width: 47%;
+    min-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #EBEBEB;
+}
+
+.nav-div a {
+    color: #EBEBEB;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-div a:hover {
+    color: #ffec42;
+}
+
+.header-div {
+    width: 100%;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.sidebar-div {
+    width: 20%;
+    float: left;
+    min-height: 2000px;
+    margin-bottom: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+}
+
+.sidebar-div a:hover {
+    color: #ffec42;
+}
+
+.sidebar-div a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    padding: 8px 0;
+    transition: color 0.3s;
+}
+
+.social-icons {
+    margin-top: auto;
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+h1{
+    color: #ccc;
+}
+
+.body-div{
+    width: 75%;
+    float: right;
+    min-height: 400px;
+    color: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.foot-div {
+    width: 100%;
+    min-height: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #ccc;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    background-color: #222;
+    clear: both
+}
+
+a{
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+.table-div {
+    margin-top: 20px;
+}
+
+.table-div table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-div th {
+    padding: 15px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.table-div td {
+    text-align: justify;
+}
+
+.table-div img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+.table-div img:hover {
+    transform: scale(1.05);
+}
