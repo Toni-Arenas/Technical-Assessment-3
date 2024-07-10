@@ -12,6 +12,16 @@ body{
     margin: auto;
 }
 
+.main-div {
+    background-color: #252525;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
 .logo-nav-div{
     width: 100%;
     min-height: 10px;
@@ -63,7 +73,7 @@ body{
 .sidebar-div {
     width: 20%;
     float: left;
-    min-height: 2000px;
+    min-height: 1800px;
     margin-bottom: 10px;
     padding: 25px;
     display: flex;
@@ -94,18 +104,88 @@ body{
     margin-right: 10px;
 }
 
+a{
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+p{
+    color: #EBEBEB;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffec42;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
 h1{
     color: #ccc;
 }
 
-.body-div{
-    width: 75%;
-    float: right;
-    min-height: 400px;
-    color: #eee;
+h2 {
+    font-size: 4rem;
+    color: #ffec42;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pillars-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pillar {
+    text-align: center;
+}
+
+.pillar img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     margin-bottom: 10px;
-    padding: 10px;
-    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+
+.pillar img:hover {
+    transform: scale(1.05);
+}
+
+.pillar h3 {
+    font-size: 1.5rem;
+    color: #ffec42;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#mission-vision {
+    text-align: center;
+}
+
+#mission-vision h3 {
+    font-size: 1.8rem;
+    color: #ffec42;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#mission-vision p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .foot-div {
@@ -119,40 +199,4 @@ h1{
     margin-top: 10px;
     background-color: #222;
     clear: both
-}
-
-a{
-    color: #EBEBEB;
-    text-decoration: none;
-}
-
-.table-div {
-    margin-top: 20px;
-}
-
-.table-div table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.table-div th {
-    padding: 15px;
-    vertical-align: top;
-    text-align: center;
-}
-
-.table-div td {
-    text-align: justify;
-}
-
-.table-div img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-    transition: transform 0.3s ease;
-}
-
-.table-div img:hover {
-    transform: scale(1.05);
 }
